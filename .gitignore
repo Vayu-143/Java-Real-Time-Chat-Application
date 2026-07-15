@@ -1,0 +1,58 @@
+# ==========================================
+# Java Chat App - Git Ignore
+# ==========================================
+
+# Java compiled files
+*.class
+
+# Compiled output directories
+out/
+bin/
+target/
+build/
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# VS Code settings
+.vscode/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.swp
+*~
+
+# Java crash logs
+hs_err_pid*
+replay_pid*
+
+# Environment and secret files
+.env
+.env.*
+*.properties.local
+
+# Runtime chat logs
+logs/*.txt
+
+# Keep the logs folder in GitHub
+!logs/.gitkeep
